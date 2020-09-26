@@ -10,6 +10,7 @@ public class SQLHandler {
 
 
 
+
     public static boolean connect() {
         try {
             Class.forName("org.sqlite.JDBC");
@@ -25,7 +26,7 @@ public class SQLHandler {
         }
     }
 
-  
+
 
     public static String getNicknameByLoginAndPassword(String login, String password) {
         String nick = null;

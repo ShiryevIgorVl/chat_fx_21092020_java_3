@@ -1,5 +1,6 @@
 package server;
 
+
 public class DBAuthServise implements AuthService {
     @Override
     public String getNicknameByLoginAndPassword(String login, String password) {
